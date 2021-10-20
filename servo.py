@@ -12,7 +12,7 @@ GPIO.setup(pwmPin, GPIO.OUT)
 
 # set min & max % duty cycles (5 and 10 are default values, but play
 # around to find optimum values for your motor)
-dcMin = 2
+dcMin = 1
 dcMax = 14
 
 pwm = GPIO.PWM(pwmPin, 50) # PWM object at 50 Hz (20 ms period)
